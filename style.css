@@ -4,25 +4,38 @@ body {
   padding: 0;
 }
 
+p{
+  color:#8EA604;
+  font-size:24px;
+  font-style:italic;
+}
+
 body {
-  background: #000;
+  background: #BF3100;
   color: white;
   position: relative;
-  font-family: 'Ubuntu Mono',
+  font-family: 'Futura',
     monospace;
 }
 
+h1{
+  color:#EC9F05;
+  font-size:42px;
+}
 a {
-  color: #019cdc;
-  font-size: 12px;
+  color: #ffffff;
+  font-size: 14px;
   display: block;
 }
 
+.profile-link{
+  color:#000000;
+}
 /* ":hover" will effect the color
  of links when you "mouseover" */
 a:hover,
 a:visited:hover {
-  color: #7ac043;
+  color: #F5BB00;
 }
 
 /* ":visited" will effect the color
@@ -33,19 +46,20 @@ a:visited {
 
 .link-heading {
   display: block;
-  font-size: 12px;
+  font-size: 18px;
+  font-style:normal;
 }
 
 .square-one .inner {
-  background: #f58428;
+  background: #8EA604;
 }
 
 .square-two .inner {
-  background: #7ac043;
+  background: #FF4E00;
 }
 
 .square-three .inner {
-  background: #019cdc;
+  background: #EC9F05;
 }
 
 .outer {
@@ -93,9 +107,9 @@ a:visited {
   display: flex;
   height: 240px;
   width: 240px;
-  transition: all 0.5s ease-out;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
 }
 
 .wrap:hover .square-one {
